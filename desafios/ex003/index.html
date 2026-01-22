@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de dinheiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Conversor de dinheiro</h1>
+        <form action="conversor.php" method="get">
+            <label for="din">Quantos R$ você tem na carteira?</label>
+            <input type="number" name="din" id="din" step="0.01"> <!-- step="0.01" é para aceitar moedas-->
+            <input type="submit" value="Converter">
+        </form>
+    </main>
+
+    <button onclick="javascript:window.location.href='index.html'">⬅️voltar</button>
+    
+</body>
+</html>
