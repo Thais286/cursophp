@@ -6,7 +6,7 @@
     <title>PHP</title>
 </head>
 <body>
-   <h1>Exemplo de php</h1> 
+   <h1>Exemplo de php/ data</h1> 
    <?php 
    date_default_timezone_set('America/Sao_Paulo'); // fuso horário UTC−3
    echo "Hoje édia". date("d/M/Y"); // dia ,mês e ano , D maiusculo significa dia da semana
